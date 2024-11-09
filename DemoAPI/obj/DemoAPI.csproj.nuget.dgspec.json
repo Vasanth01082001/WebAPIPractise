@@ -1,25 +1,28 @@
 {
   "format": 1,
   "restore": {
-    "/workspaces/WebAPIPractise/DemoAPI/DemoAPI.csproj": {}
+    "C:\\Users\\MOHAMMED ASHIK\\source\\repos\\Vasanth01082001\\WebAPIPractise\\DemoAPI\\DemoAPI.csproj": {}
   },
   "projects": {
-    "/workspaces/WebAPIPractise/DemoAPI/DemoAPI.csproj": {
+    "C:\\Users\\MOHAMMED ASHIK\\source\\repos\\Vasanth01082001\\WebAPIPractise\\DemoAPI\\DemoAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/workspaces/WebAPIPractise/DemoAPI/DemoAPI.csproj",
+        "projectUniqueName": "C:\\Users\\MOHAMMED ASHIK\\source\\repos\\Vasanth01082001\\WebAPIPractise\\DemoAPI\\DemoAPI.csproj",
         "projectName": "DemoAPI",
-        "projectPath": "/workspaces/WebAPIPractise/DemoAPI/DemoAPI.csproj",
-        "packagesPath": "/home/codespace/.nuget/packages/",
-        "outputPath": "/workspaces/WebAPIPractise/DemoAPI/obj/",
+        "projectPath": "C:\\Users\\MOHAMMED ASHIK\\source\\repos\\Vasanth01082001\\WebAPIPractise\\DemoAPI\\DemoAPI.csproj",
+        "packagesPath": "C:\\Users\\MOHAMMED ASHIK\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\MOHAMMED ASHIK\\source\\repos\\Vasanth01082001\\WebAPIPractise\\DemoAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/codespace/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\MOHAMMED ASHIK\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -75,7 +78,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.402/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

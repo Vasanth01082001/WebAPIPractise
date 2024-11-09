@@ -1,10 +1,11 @@
 using DemoAPi.Models;
 using Microsoft.AspNetCore.Mvc;
+using System.Collections.Generic;
 
-namespace DemoAPi.Contollers
+namespace DemoAPi.Controllers
 {
     [ApiController]
-    [Route("api/{Controller}")]
+    [Route("api/[controller]")]
     public class CrudController:Controller
     {
         List<Student> students=new List<Student>()
@@ -19,7 +20,15 @@ namespace DemoAPi.Contollers
         [HttpGet("GetAllStudents")]
         public ActionResult<IEnumerable<Student>> GetAllStudents()
         {
-            return Ok(students.ToList());
+            var result=students.ToList();
+            return Ok(result);
+        }
+
+        [HttpGet("GetStudentById/{id}")]
+        public ActionResult<Student> GetStudentById(int id)
+        {
+            var result=students.FirstOrDefault(students => students.Id == id);
+            return Ok(result);
         }
     }
 }
